@@ -3,45 +3,60 @@
 //! Functions
 
 // ? function declaration
-function saayHello() {
-  console.log("Hello World");
-}
-saayHello();
+// function saayHello() {
+//   console.log("Hello World");
+// }
+// saayHello();
 
 // ? Function expression
 
-const val = function goodBye() {
-  console.log("Goodbye World");
-};
+// const val = function goodBye() {
+//   console.log("Goodbye World");
+// };
 
-val();
+// val();
 
 // ? Arrow function
-const goodFunc = () => {
-  console.log("Hello World");
-};
-goodFunc();
+// const goodFunc = () => {
+//   console.log("Hello World");
+// };
+// goodFunc();
 
 // ! Arguments vs Parametr
-const func = (name) => {
-  console.log(`Hello Worl ${name}`);
-};
+// const func = (name) => {
+//   console.log(`Hello Worl ${name}`);
+// };
 
-func("Azizbek");
+// func("Azizbek");
 
 // ! return
 
-const calc = function func(r) {
-  return 2 * 3.14 * r ** 2;
-};
+// const calc = function func(r) {
+//   return 2 * 3.14 * r ** 2;
+// };
 
-const result = calc(4);
-console.log(result);
+// const result = calc(4);
+// console.log(result);
 
-const area = function res(a) {
-  return result * a;
-};
+// const area = function res(a) {
+//   return result * a;
+// };
 
-const value = area(3);
+// const value = area(3);
 
-console.log(value);
+// console.log(value);
+
+// ! Arrow function
+
+// const calc = (a, b) => {
+//   return a * b;
+// };
+
+//  const func = calc(3 , 8)
+
+//  console.log(func);
+const calc = (a) => a ** 3;
+
+const func = calc(3);
+
+console.log(func);
