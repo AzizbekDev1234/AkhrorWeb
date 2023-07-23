@@ -129,5 +129,10 @@ const users = {
   name: "Azizbek",
   number: 930766923,
   age: 19,
-  lang: uz,
+  lang: "uz",
 };
+
+console.log(users.lang);
+
+users.age = 20;
+users.number = 9232323;
