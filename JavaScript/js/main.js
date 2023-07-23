@@ -125,14 +125,50 @@
 // console.log(newArrays)
 
 // ! OBJECT
-const users = {
+// const users = {
+//   name: "Azizbek",
+//   number: 930766923,
+//   age: 19,
+//   lang: "uz",
+// };
+
+// console.log(users.lang);
+
+// users.age = 20;
+// users.number = 9232323;
+// users["name"] = "Aziz"
+
+// console.log(users)
+
+// const obj = {
+//   name: "Azizbek",
+//   number: 930766923,
+//   age: 19,
+//   lang: "uz",
+//   login: function () {
+//     console.log("Hello World");
+//   },
+//   logout: function () {
+//     console.log("Again Again");
+//   },
+// };
+
+// obj.login();
+// obj.logout();
+// console.log(obj);
+
+const obj = {
   name: "Azizbek",
-  number: 930766923,
   age: 19,
-  lang: "uz",
+  email: "as.abduhakimov@gmail.com",
+  hobby: ["feading cats", "DEV", "Watching resl"],
+  login: function () {
+    console.log("Hellooooo");
+  },
+  logout: function () {
+    console.log("bye");
+  },
+  speak: function () {
+    console.log(this);
+  },
 };
-
-console.log(users.lang);
-
-users.age = 20;
-users.number = 9232323;
