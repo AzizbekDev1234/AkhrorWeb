@@ -156,19 +156,93 @@
 // obj.login();
 // obj.logout();
 // console.log(obj);
+//  !  This keyword
+// const obj = {
+//   name: "Azizbek",
+//   age: 19,
+//   email: "as.abduhakimov@gmail.com",
+//   hobby: ["feading cats", "DEV", "Watching resl"],
+//   login: function () {
+//     console.log("Hellooooo");
+//   },
+//   logout: function () {
+//     console.log("bye");
+//   },
+//   speak: function () {
+//     console.log(this);
+//     console.log("My hobby is :")
+//     this.hobby.forEach((item) => {
+//       console.log(item)
+//     })
+//   },
+// };
 
-const obj = {
-  name: "Azizbek",
-  age: 19,
-  email: "as.abduhakimov@gmail.com",
-  hobby: ["feading cats", "DEV", "Watching resl"],
-  login: function () {
-    console.log("Hellooooo");
-  },
-  logout: function () {
-    console.log("bye");
-  },
-  speak: function () {
-    console.log(this);
-  },
-};
+// console.log(obj)
+
+// ! Arrayda object
+
+// const obj = [
+//   { name: "Avatar", like: 290 },
+//   { name: "Avatar", like: 290 },
+//   { name: "Avatar", like: 290 },
+//   { name: "Avatar", like: 290 },
+//   { name: "Avatar", like: 290 },
+// ];
+
+// obj.forEach((item) => {
+//   console.log(item.name);
+// });
+
+// ! Math object
+
+// let num = 12.12341;
+// Math.round()
+// console.log(Math.raund(num));
+// let colorOne = "Oq";
+// let colorTwo = "Qora";
+// let newColor = colorOne
+// colorOne = colorTwo
+// colorTwo = newColor
+// console.log(colorOne)
+// console.log(colorTwo)
+
+// let numOne = 12;
+// let numTwo = 2;
+
+// if (numOne > numTwo) {
+//   console.log("Bir katta");
+// } else {
+//   console.log("Siuuu");
+// }
+
+// function num(a, b) {
+//   let bigNum = (a > b) ? a : b;
+//   return bigNum
+// }
+
+// console.log(num(3, 4))
+
+// ! FizzBuzz
+// function fizzBuzz(num) {
+//   switch (true) {
+//     case num % 3 === 0:
+//       return "Fizz";
+//   }
+// }
+
+// console.log(fizzBuzz(12));
+
+// ! textContent vs innerHTML
+
+// const listEl = document.querySelectorAll("#list");
+
+// listEl.forEach((item) => {
+//   item.textContent += " darslari";
+// });
+const oderEl = document.querySelector("#oder");
+
+const arr = ["Aziz", "Olam", "Tarvuz"];
+
+arr.forEach((name) => {
+  oderEl.innerHTML += `<li>${name}</li>`;
+});
